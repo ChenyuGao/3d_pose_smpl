@@ -1,0 +1,23 @@
+10万随机划分训练验证集：
+w/01_03_15_01_: seg直接resize
+train_loss_pose: 0.0026    valid_loss_pose: 0.0043
+
+w/01_03_17_01_: 原图直接resize
+train_loss_pose: 0.0008    valid_loss_pose: 0.0014
+
+10万顺序划分训练验证集：
+w/01_04_16_28_：原图直接resize
+train_loss_pose: 0.0222    valid_loss_pose: 0.0948
+
+w/01_04_16_29_：seg直接resize
+train_loss_pose: 0.0485    valid_loss_pose: 0.1025
+
+g/01_06_16_03_: human图做pad
+train_loss_pose: 0.0210    valid_loss_pose: 0.1127
+
+16万训练，1万验证：
+w/01_08_23_28_：原图数据处理
+train_loss_pose: 0.0431    valid_loss_pose: 0.1582
+
+w/01_09_10_08_：seg数据处理
+train_loss_pose: 0.0754    valid_loss_pose: 0.1524
