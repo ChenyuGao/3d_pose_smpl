@@ -13,6 +13,7 @@ build
 
 # folders
 /.idea/*
+/src/.idea/*
 /models/*
 
 # files
